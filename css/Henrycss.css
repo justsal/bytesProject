@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+		
+body { margin: 0; font-size: 14px; line-height: 1.231; }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+img, object, embed, video {
+	max-width: 100%;
+}
+/*CSS Reset:*/
+html, head, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+padding: 0;
+margin: 0;
+font-size: 100%;
+font-weight: normal;
+}
+
+		.topshape {
+		height: 18vw;
+		width: 100%;
+		background: #1E2A34;
+		border-radius: 0px 0px 5vw 0px;
+		}		
+		
+	.title {
+		font-family: 'Fredoka One', cursive;
+		font-size:7vw;
+    	color: #1E2A34;
+    	margin-left: 10vw;
+		margin-right:2vw;
+		margin-bottom: 3vw;
+		margin-top: 6vw;
+} 
+		
+		.subtitle {
+		font-family: 'Fredoka One', cursive;
+		font-size:6vw;
+   		color: #1E2A34;
+		margin-top: 3vw;
+    	margin-left: 10vw;
+		margin-right:1vw;
+		margin-bottom: 3vw;
+} 
+		
+	.bodytext {
+		font-family: 'Open Sans', sans-serif;
+		line-height:6vw;
+		color: #1E2A34;
+		margin-left:10vw;
+		margin-right:10vw;
+		margin-bottom: 3vw;
+		margin-top: 3vw;
+		font-size:3vw;
+		
+}
+		.ctimages {
+			background: #1E2A34;
+			color: #90A0A0;
+			font-family: 'Fredoka One', cursive;
+			font-size:6vw;
+			text-align: center;
+			border-radius: 2vw 2vw 2vw 2vw;
+			border: 2vw solid #90A0A0;
+			height: 10vw;
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 4vw;
+			margin-bottom: 4vw;
+		}
+		
+				.done {
+			background: rgba(0,0,0,0.00);
+			color: #1E2A34;
+			font-family: 'Fredoka One', cursive;
+			font-size:6vw;
+			text-align: center;
+					vertical-align: middle;
+			border-radius: 2vw 2vw 2vw 2vw;
+			border: 2vw solid #1E2A34;
+			height: 10vw;
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 0vw;
+			margin-bottom: 0vw;
+		}
+		
+			.flag {
+			
+			color: #D32330;
+			font-family: 'Fredoka One', cursive;
+			font-size:6vw;
+			text-align: center;
+			border-radius: 2vw 2vw 2vw 2vw;
+			border: 2vw solid #D32330;
+			height: 10vw;
+				width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 3vw;
+			margin-bottom: 5vw;
+				
+		}
+				.completion {
+			background: white;
+			color: #1E2A34;
+			font-family: 'Fredoka One', cursive;
+			font-size:12vw;
+			text-align: center;
+			vertical-align: middle;
+			border-radius: 2vw 2vw 2vw 2vw;
+			border: 2vw solid #1E2A34;
+			height: 6vw;
+			width: 78%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 0vw;
+			margin-bottom: 6vw;
+					
+		}
+.qqquestion {
+		font-family: 'Fredoka One', cursive;
+		letter-spacing: .1vw;
+		font-size:5vw;
+   		color: #1E2A34;
+		margin-top: 6vw;
+    	margin-left: 10vw;
+		margin-right:1vw;
+		margin-bottom: 3vw;
+		display: inline-block;
+		
+}
+	.coverall {
+		
+		text-align: right;
+		
+		font-family: 'Fredoka One', cursive;
+		letter-spacing: .1vw;
+		font-size:5vw;
+   		color: #D32330;
+			margin-top: 6vw;
+		width: 50%;
+    	margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 3vw;
+		display: inline-block;
+}
+		.soverall {
+		text-align: right;
+		font-family: 'Fredoka One', cursive;
+		letter-spacing: .1vw;
+		font-size:5vw;
+   		color: #D32330;
+			margin-top: 6vw;
+		width: 62%;
+    	margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 3vw;
+		display: inline-block;
+}
+
+.questionbox1 {
+		font-family: 'Fredoka One', cursive;
+		text-align: center;
+		
+		letter-spacing: .1vw;
+		font-size:5vw;
+   		color: #1E2A34;
+		background: #90A0A0;
+		width: 22%;
+		height: 11vw;
+		margin-left: 8%;
+			margin-right: auto;
+			margin-top: 6vw;
+			margin-bottom: 4vw;
+		border-radius: 2vw 0vw 0vw 2vw;
+		border: none;
+		display: inline-block;
+		
+	}
+		.questionbox2 {
+			font-family: 'Fredoka One', cursive;
+		text-align: center;
+		
+		letter-spacing: .1vw;
+		font-size:5vw;
+   		color: #1E2A34;
+		background: #90A0A0;
+		width: 20%;
+		height: 11vw;
+		margin-left: 0%;
+			margin-right: 0;
+			margin-top: 6vw;
+			margin-bottom: 4vw;
+		
+		display: inline-block;
+			
+	}
+	
+		.questionbox3 {font-family: 'Fredoka One', cursive;
+		text-align: center;
+		
+		letter-spacing: .1vw;
+		font-size:5vw;
+   		color: #1E2A34;
+		background: #90A0A0;
+		width: 20%;
+		height: 11vw;
+			margin-top: 6vw;
+			margin-bottom: 4vw;
+			border: none;
+		
+		display: inline-block;
+			
+	}
+	
+		.questionbox4 {
+			
+			font-family: 'Fredoka One', cursive;
+		text-align: center;
+		
+		letter-spacing: .1vw;
+		font-size:5vw;
+   		color: #1E2A34;
+		background: #90A0A0;
+		width: 20%;
+		height: 11vw;
+		margin-left: auto;
+			margin-right: auto;
+			margin-top: 6vw;
+			margin-bottom: 0vw;
+			border-radius: 0vw 2vw 2vw 0vw;
+			border: none;
+		display: inline-block;
+			
+			
+	}
