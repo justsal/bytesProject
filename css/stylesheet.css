@@ -45,14 +45,14 @@ font-weight: normal;
 }
 
 #banner{
-	background-color: #1a2833;
+	background-color: red;
 	height: 10%;
 	text-align: center;
 	padding: 13px 0 13px 0;
 	border-bottom-right-radius: 15px;
 }
 #bannerSpacer{
-	background-color: red;
+	background-color: #1a2833;
 	height: 15px;
 }
 
