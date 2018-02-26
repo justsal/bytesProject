@@ -133,6 +133,22 @@ font-weight: normal;
 		display: inline-block;
 		
 }
+.back {
+			
+			color: #D32330;
+			font-family: 'Fredoka One', cursive;
+			font-size:6vw;
+			text-align: center;
+			border-radius: 2vw 2vw 2vw 2vw;
+			border: 2vw solid #D32330;
+			height: 10vw;
+				width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 3vw;
+			margin-bottom: 5vw;
+				
+		}
 	.coverall {
 		
 		text-align: right;
