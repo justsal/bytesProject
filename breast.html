@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Infectious and Benign Disorders of the Breast</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link href="css/breast.css" rel="breast" type="text/css">
+        <style>body {
+    background-color:white;color:1E2B36 
+    font-family:Fredoka One;
+    width:100%;
+    margin:0;
+    color:#1d2a35;
+}
+h1 {
+    color:1E2B36;text-align:left;margin:20px
+}
+h1 {
+    font-family:"Fredoka One"; 
+    font-size: 25px;
+}
+h2 {
+    font-family:"Fredoka One"; 
+    font-size: 19px;margin:20px
+}
+h3 {
+    font-family:"Fredoka One";
+    font-size: 15px;margin:20px
+}
+dt {
+    font-family:"Fredoka One"; font-size: 16px;margin:20px
+}
+p,dd {
+    font-family:"Open Sans"; font-size:13px;margin:20px
+}
+h4 {
+    font-family:"Fredoka One"; font-size:px;padding:0px; margin:0px;
+}
+ol{
+    font-family:"open sans"; font-size: 11px;
+}
+            li{
+            padding:5px;
+            }
+            
+#container{
+    width: 375px;
+    margin: auto;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display:inline;
+    font-size: 14px;
+    margin: 5px 5px;
+    cursor: pointer;
+
+}
+
+
+dt.ex1 {margin: 20px}
+h2.ex1 {margin: 20px}
+
+p.ex1  {
+    margin: 20px;
+}
+            
+ img{padding:20px;}
+            
+            .button {
+    background: #d61f29;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 0px;
+    margin: auto;
+    margin-bottom: 8px;  
+    color: white;
+               text-align: center;
+               font-size: 14px;
+               width:90%;
+              margin: 20px;
+            
+
+        </style>
+    </head>
+        <body>
+            <div id="container">
+            
+          <h1 class="title">Infectious and Benign Disorders of the Breast</h1>
+            
+            
+            <h2>Terms</h2>
+        
+            <dl>
+                <dt>Bacterial Infection</dt>
+                    <dd>Staphylococcus aureus and Streptococcus species are the organisms most frequently recovered from nipple discharge from an infected breast. Breast abscesses are seen in staphylococcal infections and present with point tenderness, erythema, and hyperthermia. The initial approach is antibiotics and repeated aspiration of the abscess, usually ultrasound guided aspiration. When these abscesses are related to lactation they usually occur within the first few weeks of breastfeeding.</dd>
+                <dt>Benign Diseases of the Breast</dt>
+                    <dd>
+                    <ul>
+                        <li>Non-proliferative lesions of the breast, sclerosing adenosis, intraductal papilloma have no increased risk for breast cancer</li>
+                        <li>Florid hyperplasia, 1.5-2 fold increased risk for breast cancer</li>
+                        <li>atypical lobular hyperplasia, 4 fold increased risk for breast cancer</li>
+                        <li>atypical ductal hyperplasia, 4 fold</li>
+                        <li>atypical ductal hyperplasia, 7 fold</li>
+                        <li>LCIS, 10 fold</li>
+                        <li>DCIS, 10 fold</li>
+                    </ul>
+                    </dd>
+                <dt>Fibroadenoma</dt>
+                    <dd>is the most common breast tumor in women less than 30 years old. Needle aspiration is useful to rule out to cancer.</dd>
+                <dt>Fibrocystic Disease</dt> 
+                    <dd>can present with breast pain or tenderness that varies with the menstrual cycle. Cysts that develop and are painful can be aspirated and may have yellow or green fluid. If blood or dark brown fluid, there is a suspicion for cancer  and  the fluid should be sent for cytology and a biopsy performed.</dd>
+                <dt>Male Gynecomastia</dt>
+                    <dd>Male gynecomastia can occur during the neonatal period (placental estrogens), adolescence (usually unilateral, occurs between ages 12-15), or senescence (bilateral, ages 50-70 years) and can be caused by illicit drugs such as marijuana, liver failure, conditions of increased estrogen (digitalis, estrogen, anabolic steroids) or decreased testosterone (Klinefelter’s, secondary testicular failure from trauma, orchitis, cryptorchidism ) or idiopathic (reserpine, theophylline, verapamil, tricyclic antidepressants). Treatment with surgery or danazol can occur.</dd>
+            </dl>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+             
+                
+            <button class="button">Interactivity</button>
+               
+            </div>
+
+        </body>
+</html>
