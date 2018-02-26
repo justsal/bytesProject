@@ -1,0 +1,112 @@
+body {
+    background-color:white;color:1E2B36 
+    font-family:"Fredoka One";
+    width:100%;
+    margin:0;
+    color:#1d2a35;
+}
+        
+h1 {
+    color:1E2B36;text-align:left;margin:20px
+}
+h1 {
+    font-family:"Fredoka One"; 
+    font-size: 25px;
+}
+h2 {
+    font-family:"Fredoka One"; 
+    font-size: 19px;margin:20px
+}
+h3 {
+    font-family:"Fredoka One";
+    font-size: 15px;margin:20px
+}
+dt {
+    font-family:"Fredoka One"; font-size: 16px;
+}
+p,dd {
+    font-family:"Open Sans"; font-size:13px;margin:20px
+}
+h4 {
+    font-family:"Fredoka One"; font-size:px;padding:0px; margin:0px;
+}
+ol{
+    font-family:"open sans"; font-size: 11px;
+}
+#container{
+    width: 375px;
+    margin: auto;
+}
+
+  button {
+    background: #4b555e;
+    padding: 20px 20px 20px 20px;
+    border-radius: 13px 13px 0px 0px;
+    margin: auto;
+    margin-bottom: 4px;  
+    color: white;
+               text-align: center;
+               font-size: 14px;
+               width:100%;
+}
+
+
+
+
+button1 {
+    background: #d61f29;
+    padding: 20px 30px 20px 30px;
+    border-radius: 15px 15px 15px 0px;
+    margin: 100px;
+    color: white;
+               text-align: center;
+               font-size: 14px;
+               width:100%;
+}
+
+
+
+dt.ex1 {margin: 20px}
+h2.ex1 {margin: 20px}
+
+p.ex1  {
+    margin: 20px;
+}
+
+img {padding: 20px;}
+
+
+.collapsible {
+
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+}
+
+
+.content {
+    padding: 20 20px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-radius: 0px 0px 20px 20px;
+    font-family:"open sans"; font-size: 11px;
+    color:#1d2a35;text-align:left;
+    margin-bottom: 20px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
