@@ -63,7 +63,7 @@ font-weight: normal;
 	font-size: 20px;
 }
 
-p.navButton{
+p.navButton, p.qqnavButton, p.studynavButton, p.homenavButton, p.statnavButton{
 	letter-spacing: 0.5px;
 	margin: auto;
 	display: block;
