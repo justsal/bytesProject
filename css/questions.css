@@ -1,0 +1,63 @@
+
+
+ body {
+    background-color:white;color:1E2B36 
+    font-family:Fredoka One;
+    width:100%;
+    margin:0;
+}
+h1 {
+    color:1E2B36;text-align:left;margin:20px
+}
+h1 {
+    font-family:Fredoka One; 
+    font-size: 25px;
+}
+h2 {
+    font-family:Fredoka One; 
+    font-size: 19px;margin:20px
+}
+h3 {
+    font-family:Fredoka One;
+    font-size: 15px;margin:20px
+}
+dt {
+    font-family:Fredoka One; font-size: 16px;
+}
+p,dd {
+    font-family:Open Sans; font-size:13px;margin:20px
+}
+h4 {
+    font-family:Fredoka One; font-size:px;padding:0px; margin:0px;
+}
+ol{
+    font-family:open sans; font-size: 11px;
+}
+#container{
+    width: 375px;
+    margin: auto;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 5px 15px;
+    cursor: pointer;
+}
+
+.button1 {
+    border-radius: 7px;
+}
+
+dt.ex1 {margin: 20px}
+h2.ex1 {margin: 20px}
+
+p.ex1  {
+    margin: 20px;
+}
