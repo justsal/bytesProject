@@ -91,7 +91,7 @@ $(document).ready(function(){
 	});
 
 		$(".homenavButton").click(function(){
-		$(".allquestionbody").slideUp();
+		$("section.allquestionbody").hide();
 		$("#date").animate({
           height: 'toggle'},
           1000
