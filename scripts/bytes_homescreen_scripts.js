@@ -1,20 +1,20 @@
 $(document).ready(function(){
 
-	
-	
+
+
 	"use strict";
 
-	//Prehidden stuff	
+	//Prehidden stuff
 	$("section#quickquizpage").hide();
 	$("section#statspage").hide();
 	$("span.back").hide();
-	
+
 
 
 //To stats from Nav Menu
 	$(".statnavButton").click(function(){
-		
-		
+
+
 		$("#date").animate({
           height: 'toggle'},
           1000
@@ -48,11 +48,11 @@ $(document).ready(function(){
 		$("section#sal").hide();
 		$("section#quickquizpage").hide();
 		$("section#statspage").show();
-		$("span.back").show();					
+		$("span.back").show();
 	});
-	
-	
-	
+
+
+
 //To quick quiz from Nav Menu
 	$(".qqnavButton").click(function(){
 		$("section#sal").hide();
@@ -87,11 +87,11 @@ $(document).ready(function(){
           1000
         );
 		$("section#quickquizpage").show();
-		$("span.back").show();					
+		$("span.back").show();
 	});
-	
+
 		$(".homenavButton").click(function(){
-		
+
 		$("#date").animate({
           height: 'toggle'},
           1000
@@ -124,13 +124,13 @@ $(document).ready(function(){
         );
 		$("section#statspage").hide();
 		$("section#quickquizpage").hide();
-		$("span.back").show();	
+		$("span.back").show();
 			$("section#sal").show();
-		
+
 	});
-	
-	
-	
+
+
+
 //byte collapse -->
 
 
@@ -263,8 +263,8 @@ $(document).ready(function(){
         height: 'toggle'},
         1000
       );
-	 
-		  
+
+
     });
 
     $(".exitIcon2").click(function(){
@@ -306,14 +306,14 @@ $(document).ready(function(){
       );
 		$(".whiterounderbarc").slideToggle(100);
 				  $(".bluerounderbarc").slideToggle(100);
-		  
-		
-	
+
+
+
 
     });
 
 
-//end ready function	
+//end ready function
 });
 
 
