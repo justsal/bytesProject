@@ -167,12 +167,12 @@ $(document).ready(function(){
         );
         $(".byteHomeButton1").animate({
           height: 'toggle'},
-          1000
+          100
         );
         $(".byteDropdown1").hide();
         $(".byteHomeButton2").animate({
           height: 'toggle'},
-          1000
+          100
         );
         $(".byteDropdown2").hide();
         $("#navMenu").animate({
