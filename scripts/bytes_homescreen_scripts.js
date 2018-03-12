@@ -220,6 +220,7 @@ $(document).ready(function(){
           height: 'toggle'},
           1000
         );
+				$("section.allquestionbody").toggleUp(1000);
     });
 
 
