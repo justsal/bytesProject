@@ -123,7 +123,7 @@ $(document).ready(function(){
           height: 'toggle'},
           1000
         );
-				$("bluerounderbar").slidetoggle();
+				$("bluerounderbar").slideToggle();
 				$(".whiterounderbar").slideToggle();
 
 		$("section#statspage").hide();
@@ -156,6 +156,8 @@ $(document).ready(function(){
 
 
     $(".navButton").click(function(){
+			$(".bluerounderbarc").slideToggle();
+			$(".whiterounderbarc").slideToggle();
 			$("section.allquestionbody").slideToggle();
 		$(".htquestion").slideDown();
 		$(".htquestion1").slideDown();
