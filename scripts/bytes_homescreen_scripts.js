@@ -153,7 +153,7 @@ $(document).ready(function(){
 
 
     $(".navButton").click(function(){
-			$("section.allquestionbody").hide();
+			$("section.allquestionbody").slideToggle();
 		$(".htquestion").slideDown();
 		$(".htquestion1").slideDown();
 		$(".htquestion2").slideDown();
@@ -220,7 +220,8 @@ $(document).ready(function(){
           height: 'toggle'},
           1000
         );
-				$("section.allquestionbody").toggleUp(1000);
+				$("section.allquestionbody").slideToggle(1000);
+				$(".htquestion2").slideToggle();
     });
 
 
