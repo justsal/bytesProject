@@ -91,11 +91,8 @@ $(document).ready(function(){
 	});
 
 		$(".homenavButton").click(function(){
-<<<<<<< HEAD
 
-=======
 		$("section.allquestionbody").hide();
->>>>>>> c739b92cebe095ca5a135a24337291715c75edf2
 		$("#date").animate({
           height: 'toggle'},
           1000
