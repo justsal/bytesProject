@@ -1,0 +1,521 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+		
+body { margin: 0; font-size: 14px; line-height: 1.231; }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+img, object, embed, video {
+	max-width: 100%;
+}
+/*CSS Reset:*/
+html, head, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+padding: 0;
+margin: 0;
+font-size: 100%;
+font-weight: normal;
+}
+
+/*
+Start of our Code
+--Common Graphic Elements--*/
+.horizontallines3 {
+		height:2vw;
+		width: 90%;
+		background: #1E2A34;
+		border-radius: 0px 1vw 1vw 0px;
+}
+		
+.leftline, .leftline2 {
+		position:fixed;
+		height: 90%;
+		width: 2%;
+		background: #1a2833;
+		border-radius: 0px 0vw 2vw 0px;
+	}
+
+.topshape {
+		height: 18vw;
+		width: 100%;
+		background: #1E2A34;
+		border-radius: 0px 0px 5vw 0px;
+	}		
+		
+/*Common Text Sizes and Styles 
+
+--Big Main Page Titles*/
+.title {
+		font-family: 'Fredoka One', cursive;
+		font-size:7vw;
+    	color: #1E2A34;
+    	margin-left: 10%;
+		margin-bottom: 3vw;
+		margin-top: 6vw;
+} 
+
+/*Medium Title/subheadline */
+.mtitle, .mtitle2, .mtitle3, h2 {
+		font-family: 'Fredoka One', cursive;
+		letter-spacing: .1vw;
+		font-size:5vw;
+   		color: #1E2A34;
+		margin: 3vw 10% 3vw 10%; 
+}
+.mtitle2{
+	margin: 3vw 10% 1vw 10%;	
+}
+
+.mtitle3{
+	margin: 0 10% 1vw 10%;
+}
+
+
+/*Small Fredoka Headline*/
+.stitle {
+		font-family: 'Fredoka One', cursive;
+		letter-spacing: .1vw;
+		font-size:3.5vw;
+   		color: #1E2A34;
+		margin: 3vw 1vw 1vw 10vw;
+} 
+
+/*Paragraph body text in open sans*/	
+.bodytext, ol {
+		font-family: 'Open Sans', sans-serif;
+		line-height:5vw;
+		color: #1E2A34;
+		margin-left:10%;
+		margin-right:10%;
+		margin-bottom: 3vw;
+		margin-top: 0vw;
+		font-size:3.5vw;		
+}
+
+/*Common Boxes?*/
+
+.fullredbutton{
+	background-color: #D32330;
+    border: none;
+	font-family: 'Fredoka One', cursive;
+	letter-spacing: .1vw;
+    color: white;
+    padding: 3vw 0 3vw 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5vw;
+    margin: 3vw 10% 1vw 8%;
+	width:82%;
+
+	border-radius: 3vw 3vw 3vw 0vw;
+    cursor: pointer;	
+}
+.last{margin-bottom:6vw}
+.greybluebox{
+		background: #1E2A34;
+		color: #90A0A0;
+		border-radius: 2vw 2vw 2vw 0vw;
+		border: 2vw solid #90A0A0;
+		height: 10vw;
+		width: 80%;
+		margin: 4vw auto;
+		vertical-align: middle;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+}
+
+.bluewhitebox{
+		background: #1E2A34;
+		color: white;
+		vertical-align: middle;
+		border-radius: 2vw 2vw 2vw 0vw;
+		border: 2vw solid #1E2A34;
+		height: 10vw;
+		width: 80%;
+		margin-left:10%;
+	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}	
+
+.redbox{
+		background:#D32330;
+		border-radius: 2vw 2vw 2vw 0vw;
+		border: 2vw solid #D32330;
+		height: 10vw;
+		width:80%;
+		color:white;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 3vw;
+		margin-bottom: 6vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+#toquickquiz{
+	
+}
+
+/*Correct and Incorrect pages css*/
+
+.ctimages {
+			font-family: 'Fredoka One', cursive;
+			font-size:6vw;
+			text-align: center;
+			vertical-align: middle;
+			height: 8vw;
+		}
+
+.done {	
+		font-family: 'Fredoka One', cursive;
+		font-size:6vw;
+		text-align: center;	
+		
+}
+
+.flag {
+		
+		font-family: 'Fredoka One', cursive;
+		font-size:6vw;
+		text-align: center;
+}
+
+.tryagain {	
+			color: #D32330;
+			font-family: 'Fredoka One', cursive;
+			font-size:6vw;
+			text-align: center;		
+}
+
+/*Css for Stats Page*/
+.statssubbox {		
+		display: flex;
+		width:100%;
+		height: 7vw;
+		margin-bottom: 3vw;
+		vertical-align: middle;
+		justify-content: center;
+		align-items: baseline;
+}
+.completion {
+			color: #1E2A34;
+			background: #90A0A0;
+			font-family: 'Fredoka One', cursive;
+			font-size:12vw;
+			text-align: center;
+			vertical-align: middle;
+			border-radius: 2vw 2vw 2vw 0vw;
+			border: 2vw solid #1E2A34;
+			height: 6vw;
+			width: 78%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 6vw;
+			margin-bottom: 3vw;			
+		}
+
+.overall {
+		text-align: right;
+		font-family: 'Fredoka One', cursive;
+		letter-spacing: .1vw;
+		font-size:3vw;
+   		color: #D32330;
+		margin-top: 6vw;
+    	margin-left: auto;
+		margin-right: 10%;
+		margin-bottom: 3vw;
+}
+
+/*Css for Quick Quiz*/
+.qqflexbox {
+		display: flex;
+		width:80%;
+		margin:0vw 10%;
+		align-items: center;
+		justify-content: center;
+		vertical-align: middle;		
+}
+.howmany{
+		font-family: 'Fredoka One', cursive;
+		text-align: center;
+		letter-spacing: .1vw;
+		font-size:5vw;
+		color: #1E2A34;
+		
+		
+}
+.questionbox1 {
+		display: flex;
+		vertical-align: middle;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		background: #90A0A0;
+		width: 24%;
+		margin: 0vw 1% 0vw 0vw;
+		height: 10vw;
+		border-radius: 2vw 0vw 0vw 0vw;
+		border: none;
+		
+	}
+
+.questionbox2 {
+		font-family: 'Fredoka One', cursive;
+		text-align: center;
+		letter-spacing: .1vw;
+		font-size:5vw;
+   		color: #1E2A34;
+		background: #90A0A0;
+		width: 24%;
+		height: 10vw;
+		margin: 0vw 1%;
+		display: flex;
+		vertical-align: middle;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+	}
+
+.questionbox3 {
+		font-family: 'Fredoka One', cursive;
+		letter-spacing: .1vw;
+		font-size:5vw;
+   		color: #1E2A34;
+		background: #90A0A0;
+		width: 24%;
+		height: 10vw;
+		vertical-align: middle;
+		margin: 0vw 1%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+.questionbox4 {	
+		font-family: 'Fredoka One', cursive;
+		text-align: center;
+		vertical-align: middle;
+		letter-spacing: .1vw;
+		font-size:5vw;
+   		color: #1E2A34;
+		background: #90A0A0;
+		width: 24%;
+		height: 10vw;
+		border-radius: 0vw 2vw 2vw 0vw;
+		border: none;
+		margin: 0vw 0% 0vw 1%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}
+
+/*CssWeekly Scores*/
+.weekbox{
+		display: flex;
+		margin-left: 10%;
+		width:80%;
+		height: 4vw;
+		margin-bottom: 3vw;
+		justify-content: center
+	
+}
+
+.day1{
+	background:#8ED8F8;
+	color: #8ED8F8;
+	width:12%;
+	margin-right: 1%;
+	border-radius: 1vw 0vw 0vw 0vw;
+}
+
+.day2,.day3,.day4,.day5,.day6{
+	background:#8ED8F8;
+	color: #8ED8F8;
+	width:12%;
+	margin-left:1%;
+	margin-right:1%
+}
+
+.day7{
+	background:#8ED8F8;
+	color: #8ED8F8;
+	width:12%;
+	margin-left:1%;
+	margin-right:1%;
+	border-radius: 0vw 1vw 1vw 0vw;	
+}
+
+.w2day1{
+	background:#8ED8F8;
+	color: #8ED8F8;
+	width:12%;
+	margin-right: 1%;
+	border-radius: 1vw 0vw 0vw 0vw;
+}
+
+.w2day2,.w2day3,.w2day6{
+	background:#8ED8F8;
+	color: #8ED8F8;
+	width:12%;
+	margin-left:1%;
+	margin-right:1%
+}
+.w2day4,.w2day5{
+	background:#D32330;
+	color: #D32330;
+	width:12%;
+	margin-left:1%;
+	margin-right:1%
+}
+
+
+.w2day7{
+	background:#D32330;
+	color: #90A0A0;
+	width:12%;
+	margin-left:1%;
+	margin-right:1%;
+	border-radius: 0vw 1vw 1vw 0vw;	
+}
+
+.w3day1{
+	background:#8ED8F8;
+	color: #8ED8F8;
+	width:12%;
+	margin-right: 1%;
+	border-radius: 1vw 0vw 0vw 0vw;
+}
+
+.w3day2,.w3day3,.w3day6,.w3day4{
+	background:#D32330;
+	color: #90A0A0;
+	width:12%;
+	margin-left:1%;
+	margin-right:1%
+}
+.w3day6,.w3day5{
+	background:#90A0A0;
+	color: #90A0A0;
+	width:12%;
+	margin-left:1%;
+	margin-right:1%
+}
+
+
+.w3day7{
+	background:#90A0A0;
+	color: #90A0A0;
+	width:12%;
+	margin-left:1%;
+	margin-right:1%;
+	border-radius: 0vw 1vw 1vw 0vw;	
+}
+
+.w4day1{
+	background:#90A0A0;
+	color: #8ED8F8;
+	width:12%;
+	margin-right: 1%;
+	border-radius: 1vw 0vw 0vw 0vw;
+}
+
+.w4day2,.w4day3,.w4day6,.w4day4,.w4day6,.w4day5{
+	background:#90A0A0;
+	color: #90A0A0;
+	width:12%;
+	margin-left:1%;
+	margin-right:1%
+}
+
+.w4day7{
+	background:#90A0A0;
+	color: #90A0A0;
+	width:12%;
+	margin-left:1%;
+	margin-right:1%;
+	border-radius: 0vw 1vw 1vw 0vw;	
+}
+
+
+/*Week Two breakdown*/
+
+
+
+.weekpercentage{
+	width: 80%;
+	background: #1E2A34;
+	margin-top: 3vw;
+	margin-left: 10%;
+	height: 10vw;
+	border-radius: 2vw 2vw 0vw 0vw;
+}
+.overview{
+	width: 80%;
+	background: rgba(30,42,52,0.60);
+	margin-left: 10%
+}
+.b1qbox{
+	width: 98%;
+	margin-right:10%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 1%;
+	height: 8vw;
+	vertical-align: middle;
+	align-content: center;
+	align-items: center;
+	
+}
+.btype{
+	font-family: 'Fredoka One', cursive;
+	letter-spacing: .1vw;
+	font-size:3vw;
+   	color: white;
+	width: 20%;
+	margin-left: 2vw;
+}
+.b1qs{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.b1q1{
+	height: 3vw;
+	background: #8ED8F8;
+	width: 48%;
+	border-radius: 1vw 0vw 0vw 0vw;
+	
+}
+.b1q2{
+	height: 3vw;
+	background: #8ED8F8;
+	width: 48%;	
+	margin-right: 2vw;
+	border-radius: 0vw 1vw 1vw 0vw;
+}
+
+
+.correct, .correct2{
+}
+
+.done{
+	
+	
+}
+
+
+/*.overview{
+	background: rgba(30,42,52,1.00);	
+}*/
+
+/*#toquickquiz{height:0%;
+}
+
+//.redbox{height: 0%;}*/
+
