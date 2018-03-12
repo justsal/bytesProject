@@ -123,6 +123,9 @@ $(document).ready(function(){
           height: 'toggle'},
           1000
         );
+				$("bluerounderbar").slidetoggle();
+				$(".whiterounderbar").slideToggle();
+
 		$("section#statspage").hide();
 		$("section#quickquizpage").hide();
 		$("span.back").show();
