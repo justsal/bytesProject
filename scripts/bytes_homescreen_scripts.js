@@ -153,6 +153,7 @@ $(document).ready(function(){
 
 
     $(".navButton").click(function(){
+			$("section.allquestionbody").hide();
 		$(".htquestion").slideDown();
 		$(".htquestion1").slideDown();
 		$(".htquestion2").slideDown();
