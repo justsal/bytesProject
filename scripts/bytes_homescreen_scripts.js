@@ -10,7 +10,6 @@ $(document).ready(function(){
 	$("span.back").hide();
 
 
-
 //To stats from Nav Menu
 	$(".statnavButton").click(function(){
 
