@@ -226,6 +226,7 @@ $(document).ready(function(){
         );
 				$("section.allquestionbody").slideToggle(1000);
 				$(".htquestion2").slideToggle();
+				$("span.back").show();
     });
 
 
