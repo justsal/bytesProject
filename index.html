@@ -18,12 +18,6 @@
 		<link href="css/Henrycss.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript" rel="stylesheet" src="scripts/bytes_homescreen_scripts.js"></script>
 		<script type="text/javascript" rel="stylesheet" src="scripts/questions.js"></script>
-		<!-- Henry's Styles and links-->
-
-
-
-		<!-- Jias's Styles and links-->
-
 
 	</head>
 
@@ -42,13 +36,11 @@
 	</a>
 
 			<div id="banner">
-				<div class="navButton" onclick="footerFunction()">
+				<div class="navButton" >
 		      <img src="icons/bytesIcon.png" alt="Bytes" width="45px" height="45px">
 				</div>
 			</div>
 
-			<!--<div id="bannerSpacer">
-			</div>-->
 <div class="whiterounderbar"></div>
 			<div id="navMenu">
 				<div class="whiterounderbar"></div>
@@ -74,7 +66,16 @@
 			<div id="date">
 
 		<p id="date1">Today's Date</p><!--<br/>-->
-				<p id="date2">3/07</p>
+				<p id="date2">
+
+					<script type="text/javascript">
+					var d = new Date()
+					document.write(d.getMonth() + 1)
+					document.write("/")
+					document.write(d.getDate())
+				</script>
+
+				</p>
 			</div>
 
 			<div class="horizontallines"></div>
@@ -113,7 +114,7 @@ Diffuse Axonal Injury</p>
 			<div id="calendarSpacer"> </div>
 			<div id="calendarTab"></div>
 			<div id="calendar">
-				<!--<div class="leftline"></div>-->
+
 				<p class="searchBanner">
 					<img class="searchIcon" src="icons/searchIcon.png" alt="Bytes" width="30px" height="30px">
 				</p>
@@ -160,8 +161,7 @@ Diffuse Axonal Injury</p>
 
 <div class="title">Quick Quiz!</div>
 
-	<div class="horizontallines">
-	</div>
+	<div class="horizontallines"></div>
 	<div class="bluerounderbar"></div>
 	<div class="whiterounderbar"></div>
 
@@ -229,13 +229,6 @@ Diffuse Axonal Injury</p>
 </div>
 
 		</section>
-
-		<section id="jia">
-
-		</section>
-
-	<!--div for container
-</div>-->
 
 	</body>
 

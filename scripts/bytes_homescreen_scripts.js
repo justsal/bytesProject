@@ -10,332 +10,219 @@ $(document).ready(function(){
 	$("span.back").hide();
 
 
-//To stats from Nav Menu
-	$(".statnavButton").click(function(){
 
-
-		$("#date").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteHomeButton1").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteDropdown1").hide();
-        $(".byteHomeButton2").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteDropdown2").hide();
-        $("#navMenu").animate({
-          height: 'toggle'},
-          1000
-        );
-        $("#calendarTab").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".horizontallines").animate({
-          height: 'toggle'},
-          1000
-        );
-        $("#bannerSpacer").animate({
-          height: 'toggle'},
-          1000
-        );
-		$("section#sal").hide();
-		$("section#quickquizpage").hide();
-		$("section#statspage").show();
-		$("span.back").show();
-	});
+<!--  Show and hide Navigation Menu  -->
 
 
 
-//To quick quiz from Nav Menu
-	$(".qqnavButton").click(function(){
-		$("section#sal").hide();
-		$("#date").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteHomeButton1").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteDropdown1").hide();
-        $(".byteHomeButton2").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteDropdown2").hide();
-        $("#navMenu").animate({
-          height: 'toggle'},
-          1000
-        );
-        $("#calendarTab").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".horizontallines").animate({
-          height: 'toggle'},
-          1000
-        );
-        $("#bannerSpacer").animate({
-          height: 'toggle'},
-          1000
-        );
-		$("section#quickquizpage").show();
-		$("span.back").show();
-	});
+var navMenuShow = 0;
+var exButton = 1;
 
-		$(".homenavButton").click(function(){
+  $(".navButton").click(function(){
+    switch(navMenuShow){
+      case 0:
+          $("#navMenu").slideDown();
+          $("section#sal").fadeOut();
+          calendarShow=0;
+          navMenuShow=1;
+          break;
+      case 1:
+          $("#navMenu").slideUp();
+          $("section#sal").fadeIn();
+          navMenuShow=0;
+          break;
+    };
+  });
 
-		$("section.allquestionbody").hide();
-		$("#date").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteHomeButton1").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteDropdown1").hide();
-        $(".byteHomeButton2").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteDropdown2").hide();
-        $("#navMenu").animate({
-          height: 'toggle'},
-          1000
-        );
-        $("#calendarTab").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".horizontallines").animate({
-          height: 'toggle'},
-          1000
-        );
-        $("#bannerSpacer").animate({
-          height: 'toggle'},
-          1000
-        );
-				$("bluerounderbar").slideToggle();
-				$(".whiterounderbar").slideToggle();
+//exit button on Navigation menu
 
-		$("section#statspage").hide();
-		$("section#quickquizpage").hide();
-		$("span.back").show();
-			$("section#sal").show();
-
-	});
+$(".exitNav").click(function(){
+    switch(exButton){
+      case 0:
+          $("#navMenu").slideDown();
+          $("section#sal").fadeOut();
+          exButton=0;
+          break;
+      case 1:
+          $("#navMenu").slideUp();
+          $("section#sal").fadeIn();
+          $("#quickquizpage").fadeOut();
+          $("#statspage").fadeOut();
+          $(".back").fadeOut();
+          navMenuShow = 0;
+          exButton=1;
+          break;
+    };
+  });
 
 
 
-//byte collapse -->
-
-
-    $(".byteHomeButton1").click(function(){
-          $(".byteDropdown1").animate({
-            height: 'toggle'
-          });
-    });
-
-    $(".byteHomeButton2").click(function(){
-          $(".byteDropdown2").animate({
-            height: 'toggle'
-          });
-    });
+<!--  Show and hide Bytes  -->
 
 
 
-//<!-- navMenu collapse -->
+var byteDropShow1=0;
 
+$(".byteHomeButton1").click(function(){
+    switch(byteDropShow1){
+      case 0:
+          $(".byteDropdown1").slideDown(100, "linear");
+          byteDropShow1=1;
+          break;
+      case 1:
+          $(".byteDropdown1").slideUp(100, "linear");
+          byteDropShow1=0;
+          break;
+    };
+});
 
-    $(".navButton").click(function(){
-			$(".bluerounderbarc").slideToggle();
-			$(".whiterounderbarc").slideToggle();
-			$("section.allquestionbody").slideToggle();
-		$(".htquestion").slideDown();
-		$(".htquestion1").slideDown();
-		$(".htquestion2").slideDown();
-        $("#date").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteHomeButton1").animate({
-          height: 'toggle'},
-          100
-        );
-        $(".byteDropdown1").hide();
-        $(".byteHomeButton2").animate({
-          height: 'toggle'},
-          100
-        );
-        $(".byteDropdown2").hide();
-        $("#navMenu").animate({
-          height: 'toggle'},
-          1000
-        );
-        $("#calendarTab").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".horizontallines").animate({
-          height: 'toggle'},
-          1000
-        );
-        $("#bannerSpacer").animate({
-          height: 'toggle'},
-          1000
-        );
-    });
+var byteDropShow2=0;
 
-    $(".exitIcon1").click(function(){
-        $("#date").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteHomeButton1").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteDropdown1").hide();
-        $(".byteHomeButton2").animate({
-          height: 'toggle'},
-          1000
-        );
-        $(".byteDropdown2").hide();
-        $("#navMenu").animate({
-          height: 'toggle'},
-          1000
-        );
-        $("#calendarTab").animate({
-          height: 'toggle'},
-          100
-        );
-        $(".horizontallines").animate({
-          height: 'toggle'},
-          1000
-        );
-        $("#bannerSpacer").animate({
-          height: 'toggle'},
-          1000
-        );
-				$("section.allquestionbody").slideToggle(1000);
-				$(".htquestion2").slideToggle();
-				$("span.back").show();
-    });
+$(".byteHomeButton2").click(function(){
+    switch(byteDropShow2){
+      case 0:
+          $(".byteDropdown2").slideDown(100, "linear");
+          byteDropShow2=1;
+          break;
+      case 1:
+          $(".byteDropdown2").slideUp(100, "linear");
+          byteDropShow2=0;
+          break;
+    };
+});
 
 
 
+<!--  Show and hide Calendar  -->
 
 
 
-//<!-- calendar collapse -->
+var calendarShow = 0;
+
+$("#calendarTab").click(function(){
+    switch(calendarShow){
+      case 0:
+          $("#date").hide();
+          $(".byteHomeButton1").hide();
+          $(".byteDropdown1").hide();
+          $(".byteHomeButton2").hide();
+          $(".byteDropdown2").hide();
+          byteDropShow1=0;
+          byteDropShow2=0;
+          $("#calendarTab").hide();
+          $("#calendarSpacer").show();
+          $(".horizontallines").hide();
+          $(".bluerounderbarc").hide();
+          $(".whiterounderbarc").hide();
+          $("#calendar").fadeIn(150, "linear");
+          calendarShow=1;
+          break;
+      case 1:
+          $("#date").show();
+          $(".byteHomeButton1").show();
+          $(".byteDropdown1").hide();
+          $(".byteHomeButton2").show();
+          $(".byteDropdown2").hide();
+          $("#calendarTab").show();
+          $("#calendarSpacer").hide();
+          $(".horizontallines").show();
+          $(".bluerounderbarc").show();
+          $(".whiterounderbarc").show();
+          $("#calendar").fadeOut(100, "linear");
+          calendarShow=0;
+          break;
+    };
+  });
+
+
+//exit button on Calendar menu
+
+var calendarExButton=1;
+
+$(".exitCalendar").click(function(){
+    switch(calendarExButton){
+      case 0:
+          $("#date").hide();
+          $(".byteHomeButton1").hide();
+          $(".byteDropdown1").hide();
+          $(".byteHomeButton2").hide();
+          $(".byteDropdown2").hide();
+          byteDropShow1=0;
+          byteDropShow2=0;
+          $("#calendarTab").hide();
+          $("#calendarSpacer").show();
+          $(".horizontallines").hide();
+          $(".bluerounderbarc").hide();
+          $(".whiterounderbarc").hide();
+          $("#calendar").fadeIn(150, "linear");
+          calendarExButton=0;
+          break;
+      case 1:
+          $("#calendar").fadeOut(150, "linear");
+          $("#date").show();
+          $(".byteHomeButton1").show();
+          $(".byteDropdown1").hide();
+          $(".byteHomeButton2").show();
+          $(".byteDropdown2").hide();
+          $("#calendarTab").show();
+          $("#calendarSpacer").hide();
+          $(".horizontallines").show();
+          $(".bluerounderbarc").show();
+          $(".whiterounderbarc").show();
+          calendarShow=0;
+          calendarExButton=1;
+          break;
+    };
+  });
 
 
 
-      $("#calendarTab").click(function(){
-      $(".byteHomeButton1").hide();
-      $(".byteHomeButton2").hide();
-		  $(".bluerounderbarc").slideToggle();
-		  $(".whiterounderbarc").slideToggle(
-		  );
-      $("#date").animate({
-        height: 'toggle'},
-        1000
-      );
-      $("#calendarSpacer").animate({
-        height: 'toggle'},
-        1000
-      );
-      $("#calendar").animate({
-        height: 'toggle'},
-        1000
-      );
-      $("#calendarTab").animate({
-        height: 'toggle'},
-        1000
-      );
-     /* $(".leftline").animate({
-        height: 'toggle'},
-        1000
-      );*/
-      $(".horizontallines").animate({
-        height: 'toggle'},
-        1000
-      );
-      $("#bannerSpacer").animate({
-        height: 'toggle'},
-        1000
-      );
-
-
-    });
-
-    $(".exitIcon2").click(function(){
-      $(".byteHomeButton1").animate({
-        height: 'toggle'},
-        1000
-      );
-      $(".byteHomeButton2").animate({
-        height: 'toggle'},
-        1000
-      );
-      $("#date").animate({
-        height: 'toggle'},
-        1000
-      );
-      $("#calendarSpacer").animate({
-        height: 'toggle'},
-        1000
-      );
-      $("#calendar").animate({
-        height: 'toggle'},
-        1000
-      );
-      $("#calendarTab").animate({
-        height: 'toggle'},
-        1000
-      );
-      /*$(".leftline").animate({
-        height: 'toggle'},
-        1000
-      );*/
-      $(".horizontallines").animate({
-        height: 'toggle'},
-        1000
-      );
-      $("#bannerSpacer").animate({
-        height: 'toggle'},
-        1000
-      );
-		$(".whiterounderbarc").slideToggle(100);
-				  $(".bluerounderbarc").slideToggle(100);
+<!--  Go to Stats from NavMenu  -->
 
 
 
+$(".statnavButton").click(function(){
+  $("#navMenu").fadeOut();
+    navMenuShow=0;
+    $("#sal").fadeOut();
+    $("#quickquizpage").fadeOut();
+    $("#statspage").fadeIn();
+    $("span.back").fadeIn();
+    $(".horizontallines").show();
+  });
 
-    });
+
+
+<!--  Go to QuickQuiz from NavMenu  -->
+
+
+
+$(".qqnavButton").click(function(){
+  $("#navMenu").fadeOut();
+    navMenuShow=0;
+    $("#sal").fadeOut();
+    $("#quickquizpage").fadeIn();
+    $("#statspage").fadeOut();
+    $(".back").fadeIn();
+    $(".horizontallines").show();
+  });
+
+
+
+<!--  Go to Home from NavMenu  -->
+
+
+
+$(".homenavButton").click(function(){
+  $("#navMenu").fadeOut();
+    navMenuShow=0;
+    $("#sal").fadeIn();
+    $("#quickquizpage").fadeOut();
+    $("#statspage").fadeOut();
+    $(".back").fadeOut();
+  });
+
 
 
 //end ready function
 });
-
-
-
-//<!-- Go to New Section -->
-/*
-
-$(".start").click(function(){
-  "use strict";
-	$("#sal").hide();
-  $("#henry").animate({
-    height: 'toggle'
-  });
-});
-
-//<!-- Henry's Nav -->*/
