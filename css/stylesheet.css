@@ -405,7 +405,7 @@ span.htquestion {
 	display: none;
 }
 
-.correctanim, .correctanimfade{
+.correctanim, .correctanimfade, .incorrectanimfade{
 	text-align: center;
 	width: 74%;
 	padding: 3vw;

@@ -10,8 +10,7 @@ $(document).ready(function(){
 	$("span.back").hide();
 
 
-
-<!--  Show and hide Navigation Menu  -->
+//Show and hide Navigation Menu
 
 
 
@@ -177,7 +176,7 @@ $(".exitCalendar").click(function(){
 
 
 
-<!--  Go to Stats from NavMenu  -->
+//Go to Stats from NavMenu 
 
 
 
@@ -193,7 +192,7 @@ $(".statnavButton").click(function(){
 
 
 
-<!--  Go to QuickQuiz from NavMenu  -->
+//Go to QuickQuiz from NavMenu  -->
 
 
 
@@ -209,7 +208,7 @@ $(".qqnavButton").click(function(){
 
 
 
-<!--  Go to Home from NavMenu  -->
+// Go to Home from NavMenu  -->
 
 
 
