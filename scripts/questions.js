@@ -29,6 +29,7 @@ $('.incorrect').click(function(){
 	$('.correct').click(function(){
 		
 		$("section.htquestion1").slideToggle(1000);
+		$(".correctanimfade").slideDown(1000);
 		$("section.htquestion2").slideToggle(1000);
 		$(".correctanimfade").delay(3000).slideUp(1000);
 	
